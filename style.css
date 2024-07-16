@@ -1,0 +1,126 @@
+html {
+    background: url(img/background.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #f8f8f8;
+}
+
+
+.opponentPart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    align-items: flex-end;
+}
+
+.opponent {
+    width: 16%;
+    height: auto;
+    position: relative;
+    top: 95px;
+    right: 30px;
+    z-index: 2;
+}
+
+.oppBase {
+    width: 35%;
+    height: auto;
+    position: relative;
+    top: -35px;
+    right: 50px;
+    z-index: 1;
+}
+
+#oppPokemon {
+    width: 13%;
+    height: auto;
+    top: -290px;
+    right: 190px;
+    position: relative;
+    z-index: 3;
+}
+    
+.textBoxPart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0px;
+}
+
+.player {
+    width: 17%;
+    height: auto;
+    position: relative;
+    left: 110px;
+    bottom: -108px;
+    z-index: 2;
+    
+}
+
+.pyrBase {
+    width: 60%;
+    height: auto;
+    position: relative;
+    left: 15px;
+    bottom: -10px;
+    z-index: 1;
+}
+
+#pyrPokemon {
+    width: 19%;
+    height: auto;
+    top: 274px;
+    left: 300px;
+    position: fixed;
+    z-index: 1;
+}
+
+.textBox {
+    width: 90%;
+    height: auto;
+    position: relative;
+    z-index: 3;
+    align-self: center;
+
+}
+
+
+h2 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 25px;
+    position: relative;
+    z-index: 4;
+    bottom: -485px;
+    margin-left: 180px;
+}
+
+h3 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 25px;
+    position: relative;
+    top: -50px;
+    text-align: center;
+    color: crimson;
+}
+
+.choices {
+    position: relative;
+    display: flex;
+    justify-content:space-evenly;
+    z-index: 5;
+    bottom: -440px;
+}
+
+button {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 18px;
+    width: 100px;
+    height: 50px;
+}
+
